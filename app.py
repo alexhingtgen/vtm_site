@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import render_template, request
+from flask import render_template, request, url_for
 
 
 app = Flask(__name__)
@@ -20,9 +20,7 @@ def estimate():
         height = float(form['height'])
         pi = 3.14
         tank_top = pi * radius**2
-        print(tank_top)
         tank_side = 2 * (pi * (radius * height))
-        print(tank_side)
         tank_area = tank_top + tank_side
         total_sqft = tank_area / 144
         material_cost = total_sqft * 25
