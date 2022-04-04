@@ -1,5 +1,6 @@
 from flask import Flask
-from flask import render_template
+from flask import render_template, request
+
 
 app = Flask(__name__)
 
@@ -24,7 +25,8 @@ def estimate():
         material_cost = total_sqft * 25
         labor_cost = total_sqft * 15
         total_estimate = "${:,.2f}".format(round(material + labor, 2))
-    return render_template('estimate.html', pageTitle='VTM Estimator', estimate = total_estimate)
+        return render_template('estimate.html', estimate = total_estimate)
+    return render_template('estimate.html', pageTitle='VTM Estimator')
 
 if __name__ == '__main__':
     app.run(debug=True)
