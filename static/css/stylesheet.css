@@ -7,7 +7,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:grey
+    background-color:grey;
 }
 
 li {
@@ -36,6 +36,6 @@ li {
 
 
 
-figcaption{
+figcaption {
     margin-top: 10px;
 }
