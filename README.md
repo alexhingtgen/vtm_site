@@ -1,6 +1,7 @@
 # Flask Template
 ![Flask](https://img.shields.io/badge/-Flask-black?logo=flask)
 ![MicrosoftAzure](https://img.shields.io/badge/-Azure-blue?logo=microsoftazure)
+
 Basic structure for starting a Flask project with Jinja templates
 
 ---
