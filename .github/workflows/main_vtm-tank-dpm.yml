@@ -1,4 +1,4 @@
-name: test-package-deploy #MWC
+name: test-package-deploy #VTM_Updated
 on:
   push:
     branches: [main]
