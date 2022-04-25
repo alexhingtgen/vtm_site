@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'VTM-Updated'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B13883FFD1784F45B662C72532588F1C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0D9402D1E3B84F0FA17CECBE1166CCB9 }}
